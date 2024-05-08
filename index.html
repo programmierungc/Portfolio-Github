@@ -1,0 +1,873 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/remixicons/fonts/remixicon.css">
+    <link rel="stylesheet" href="./assets/css/aos.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Talla Portfolio</title>
+</head>
+
+<body>
+
+
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Herr Kameni</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-lg-4">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Qualification</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Hobby</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <div class="social-links ms-auto">
+                    <a href="https://www.linkedin.com/in/roding-lepamod-56041314a/"><i class="ri-linkedin-fill"></i></a>
+                    <a href="https://github.com/roding2020"><i class="ri-github-fill"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <!--<section id="hero">
+        <div class="container">
+            <div class="row" data-aos="fade-up">
+                <div class="col-lg-5">
+
+                    <h1 class="display-1" data-aos="fade-up">Franck Cabrel Talla Kameni</h1>
+                    <p data-aos="fade-up" data-aos-delay="300">Hallo ! Ich bin Medizintechniker, spezialisiert in der 3D Bildrekonstruktion mit OpenCv and KameraKalibration.
+                           Mein Ziel ist eine möglichst außerst präzide Zuordnung der 3D Wert mit dem 2D Bilder im Kamera</p>
+                    <a href="#work" class="btn btn-outline-light" data-aos="fade-up" data-aos-delay="500">Explor My Work</a>
+
+                    <div>
+                        <img src="./assets/img/LUV00166.JPG" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>-->
+
+    <section id="hero">
+        <div class="container">
+            <div class="row" data-aos="fade-up">
+                <div class="col-lg-5">
+
+                    <h1 class="display-1" data-aos="fade-up">Franck Cabrel Talla Kameni</h1>
+                    <p data-aos="fade-up" data-aos-delay="300">
+                        I am a medical engineer working on 3D image reconstruction and camera calibration,
+                        with the aim of matching each 2D image point to the best 3D position in space as accurately as possible.
+                    </p>
+                    <a href="#services" class="btn btn-outline-light" data-aos="fade-up" data-aos-delay="500">Explor My Work</a>
+
+                </div>
+
+                <div class="col-lg-6 offset-lg-1">
+                    <img src="./assets/img/me4.JPG" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="intro text-center">
+                        <div class="hr-line"></div>
+                        <h1 class="display-4">Professional Experience</h1>
+                        <p class="mx-auto">..</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row gy-4">
+
+                <!-- Recognition and tracking of features in the image -->
+                <div class="col-lg-6" data-aos="fade-up">
+                    <div class="service">
+                        <div class="icon">
+                            <i class="ri-pencil-ruler-2-fill"></i>
+                        </div>
+                        <div>
+                            <h4> Recognition and tracking of features in the image (internship project)<br>Company: Courage + Khazaka Electronics</h4>
+                            <h5>Period: August - Oktober 2023 (3 Monate)</h5><br>
+                            <h5>Tasks completed:</h5>
+                            <p>* Sensor-based mapping and localization;</p>
+                            <p>* Mean Gaussian filtering and median filtering;</p>
+                            <p>* OpenCV image reads and displays pixel operation;</p>
+                            <p>* Image restoration, brightness enhancement, skin whitening;</p>
+                            <p>* Image: zoom, cut, shift, mirroring, affine map and rotation;</p>
+                            <p>* object recognition and calculation of the image coordinate of each point;</p>
+
+
+                            <h5>Focus:</h5><br>
+                            <p> Implement an image orientation invariant algorithm using affine transformation </p>
+                            <p> Detect and track objects using imaging algorithms. These points will later be used for camera calibration. </p>
+                            <!--<a href="#" class="link-arrow">Read More <i class="ri-arrow-right-up-line"></i></a>-->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- automatische Kamerakalibrierung und Bestimmung der 3D Postion -->
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service">
+                        <div class="icon">
+                            <!--                            <i class="ri-cup-fill"></i>-->
+                            <i class="ri-pencil-ruler-2-fill"></i>
+                        </div>
+                        <div>
+                            <!--  hier more details-->
+                            <h4>Automatic camera calibration and 3D pixel position determination. (bachelor thesis project) <br>Company: Courage + Khazaka Electronic </h4>
+                            <h5>Period: Feb 2023 - April 2023 (3 Months)</h5><br>
+                            <h5>Tasks completed:</h5>
+                            <p>
+                                * Development of an automatic calibration algorithms in csharp
+                            </p>
+                            <p>
+                                * Creation of a calibration process with one image and with multiple image
+                            </p>
+                            <p>
+                                * Implementation of a method to optimize the calibration parameter and reduce the projection error
+                            </p>
+                            <p>
+                                * Estimation of the best suitable 3D Position of image points using triangualtion
+                            </p>
+                            <h5>Focus:</h5>
+                            <p>
+                                FreeCad, Math.NET, MatLab, CSharp, User graphical interface,
+                                OpenCV, Kalman filter, KNN, CNN & SVM recognition.
+                            </p>
+                            <!--<a href="#" class="link-arrow">Read More <i class="ri-arrow-right-up-line"></i></a>-->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Implementation of 2D-FT and High-pass Filtering  -->
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service">
+                        <div class="icon">
+                            <i class="ri-computer-fill"></i>
+                        </div>
+                        <div>
+                            <h4>Image Processing Project - Implementation of 2D-FT and High-pass Filtering in C++ <br> Company: University project in imaging</h4>
+                            <h5>Period: Mai - Aug, 2023 (4 Months)</h5><br>
+
+                            <h5>Project Overview:</h5>
+                            <p>
+                                This project involves the implementation of an image processing application
+                                in C++ that performs 2D Fourier Transformation (2D-FT) and high-pass filtering.
+                                The goal is to develop an algorithm that enables efficient and precise image processing.
+                                The implementation was carried out in both C++ and MATLAB to ensure a thorough examination of
+                                the steps and to ensure that the implementation does not deviate from the given structure.
+                            </p>
+
+
+                            <h5>Tasks Completed :</h5>
+                            <h5> Implementation of five class methods in C++:</h5>
+                            <p>* Setting the Maximum k-values: The method void set_kMax(); sets the maximum k-values for the Fourier transformation based on the given parameters.</p>
+                            <p>* Performing 2D Fourier Transformation of an Image: The method void FTofImage(Image img); performs a 2D Fourier transformation on a given image.</p>
+                            <p>* Filtering with a High-pass Filter: The method void FilterWith_NormK_Filter(void); applies high-pass filtering based on the normalized k-values.</p>
+                            <p>* Inverse Fourier Transformation: The method Image IFT(void); performs an inverse Fourier transformation and returns the result as an image.</p>
+                            <p>* Setting the k-Space Distance: The method void set_Delta_k(double FoVx, double FoVy); sets the k-space distance based on the given parameters.</p>
+
+                            <h5>Focus of the Work :</h5>
+                            <p>
+                                *The implementation of the image processing algorithms focused on efficiently implementing 2D-FT and
+                                high-pass filtering in C++. MATLAB was additionally integrated to verify the implementation steps
+                            </p>
+
+
+                            <h5>Tools :</h5>
+                            <p>* C++, Matlab ;</p>
+
+                            <h5>Key Skills :</h5>
+                            <p>* Image Processing ;</p>
+                            <p>* Implementation of Fourier Transformation ;</p>
+                            <p>* High-pass Filtering ;</p>
+                            <p>* Integration of MATLAB in C++ projects ;</p>
+                            <p>* Understanding of 2D image processing algorithms ;</p>
+
+                            <h5>Result :</h5>
+                            <P>
+                                The generated image matrices and the matrices with the real and imaginary parts of the Fourier-transformed
+                                original image were read in MATLAB and graphically displayed using imagesc().
+                                It was verified that the implemented filter led to a de-blurring of the original image.
+                                The k-space matrix was analyzed to ensure it looks sensible and the implementation is correct.
+                            </P>
+                            <h5>Note :</h5>
+                            <P>
+                                The k-space matrix represents the spatial frequency domain in Fourier space.
+                                In medical imaging, for instance, k-space is utilized to represent spatial frequency
+                                information in MRI images. Analyzing the k-space matrix helps ensure
+                                that the Fourier transform and filtering have been implemented correctly.
+                            </P>
+                            <!--<a href="#" class="link-arrow">Read More <i class="ri-arrow-right-up-line"></i></a>-->
+                        </div>
+                    </div>
+                </div>
+
+                <!--  Implementation of the Radon transformation in C++  -->
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service">
+                        <div class="icon">
+                            <i class="ri-computer-fill"></i>
+                        </div>
+                        <div>
+                            <h4>Reconstruction of a CT scan / Implementation of the Radon transformation in C++ <br> Company: University project in imaging</h4>
+                            <h5>Period: März - August, 2023 (3 Months)</h5><br>
+
+                            <h5>Basic Flow of Radon Transformation :</h5>
+                            <p>
+                                The task involved implementing the Radon Transformation in C++ for a given image object.
+                                The attenuation coefficients in the image were considered as image points. The Field of View
+                                (FoV) of this image is 220 × 220 mm². The Radon transformation to be implemented provides the corresponding Sinogram,
+                                which a CT scanner would generate as the measurement result.
+                            </p>
+
+                            <h5>Tasks Completed :</h5>
+                            <p>* Definition of classes for the Image and the Sinogram;</p>
+                            <p>* Loading the image from the file Object.txt;</p>
+                            <p>* Computing the Sinogram;</p>
+                            <p>* Saving the generated Sinogram to a text file;</p>
+                            <p>* Implementing the algorithm to ensure that each pixel of the image contributes to the sum exactly once along a ray;</p>
+
+                            <h5>Matlab Integration :</h5>
+                            <p>* Testing the algorithm in Matlab before implementation in C++;</p>
+                            <p>* Reading the generated Sinogram matrix and the original image into Matlab;</p>
+                            <p>* Graphical representation of the Sinogram using imagesc();</p>
+                            <p>* Generating an image from the Sinogram using the iradon() function.</p>
+                            <p>* Comparing the original image with the image generated from the Sinogram using iradon();</p>
+                            <p>* Discussing possible differences;</p>
+
+                            <h5>Focus of the Work :</h5>
+                            <p>*Developing a C++ application to perform the Radon transformation of a given object;</p>
+                            <p>* Reading the generated Sinogram matrix and the original image into Matlab;</p>
+
+                            <h5>Tools :</h5>
+                            <p>* Visual Studio, Matlab, Text File I/O (fstream, ifstream, ofstream) ;</p>
+
+                            <h5>Result :</h5>
+                            <P>
+                                The implementation of the Radon transformation in C++ and
+                                the integration with Matlab were successfully completed. The focus
+                                was on the correct implementation of the algorithm to ensure accurate Radon transformation.
+                                Through Matlab integration, the algorithm was validated, and the results were presented graphically and analyzed.
+                            </P>
+                            <!-- <a href="#" class="link-arrow">Read More <i class="ri-arrow-right-up-line"></i></a>-->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CSharp (C#) Programming Training -->
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="700">
+                    <div class="service">
+                        <div class="icon">
+                            <i class="ri-user-5-fill"></i>
+                        </div>
+                        <div>
+                            <h4>CSharp (C#) Programming Training<br>Company: Udemy</h4>
+                            <h5>Period: 15 September 2015-12 March 2017 (1 months)</h5><br>
+
+                            <h5>Overview:</h5>
+                            <p>
+                                I have successfully completed a C# Programming course on Udemy.
+                                The training covered various aspects of C# programming, from basics like data types
+                                and variables to more advanced concepts like Unity Game Development and WPF applications.
+                                Below you will find the completed tasks and the focus of my work during the training.
+                            </p>
+
+                            <h3>Completed Tasks and Focus of Work:</h3>
+
+                            <ol>
+                                <li>
+                                    <h4>Basic C# Programming:</h4>
+                                    <p>
+                                        Developing a solid foundation for C# programming through practical applications of data types and variables.
+                                    </p>
+                                    <p>
+                                        <strong>Practical Application:</strong>
+                                        Knowledge of data types and variables is crucial for developing software in medical technology, such as processing patient data.
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <h4>Efficient Code Writing:</h4>
+                                    <p>
+                                        Efficient use of functions/methods to solve practical problems and optimize code flow.
+                                    </p>
+                                    <p>
+                                        <strong>Practical Application:</strong>
+                                        Efficient code is essential for implementing computation-intensive medical algorithms, such as in image processing systems for diagnosis.
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <h4>Decision Making in Programming:</h4>
+                                    <p>
+                                        Learning decision-making concepts in programming to determine logical paths within the code.
+                                    </p>
+                                    <p>
+                                        <strong>Practical Application:</strong>
+                                        Decision structures like IF-ELSE and SWITCH are used in medical technology to make adjustments to medical devices based on various patient scenarios.
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <h4>Task Automation:</h4>
+                                    <p>
+                                        Automating tasks and repetitions through a comprehensive understanding of loop constructs in C#.
+                                    </p>
+                                    <p>
+                                        <strong>Practical Application:</strong>
+                                        Loops are used in medical technology to automate repetitive processes, such as analyzing large data sets from medical sensors.
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <h4>Object-Oriented Programming (OOP):</h4>
+                                    <p>
+                                        Creating robust and maintainable applications through a deep understanding of OOP principles in C#.
+                                    </p>
+                                    <p>
+                                        <strong>Practical Application:</strong>
+                                        Object-oriented programming is used in medical technology to develop modular and maintenance-friendly software for medical devices, such as for imaging procedures or patient monitoring systems.
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <h4>Advanced C# Topics, Collections, Debugging, Inheritance, Polymorphism, Text Files, Events, Delegates, LINQ, Threads, Unit Testing, WPF, Unity Basics, and Unity Game Development:</h4>
+                                    <p>
+                                        <strong>Practical Application:</strong>
+                                        The advanced C# topics as well as the knowledge in collections, debugging, inheritance, polymorphism, text files, events, delegates, LINQ, threads, unit testing, WPF, and Unity basics and game development find application in medical technology to:
+                                    </p>
+                                    <ul>
+                                        <li>Develop effective and reliable software for medical devices</li>
+                                        <li>Support medical imaging and diagnosis</li>
+                                        <li>
+                                            Development of highly flexible and scalable applications through in-depth knowledge of
+                                            knowledge of polymorphism and the processing of text files in C#.
+                                        </li>
+                                        <li>Manage and analyze patient data</li>
+                                        <li>Improve the performance and accuracy of medical systems</li>
+                                    </ul>
+                                </li>
+                            </ol>
+
+
+                            <h5>Focus:</h5>
+                            <p>
+                                C# Programming, Medical Technology, Software Development.
+                            </p>
+                            <!--<a href="#" class="link-arrow">Read More <i class="ri-arrow-right-up-line"></i></a>-->
+                        </div>
+                    </div>
+                </div>
+
+                <!--Supervision of student tutorial groups in Mathematics I and III -->
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service">
+                        <div class="icon">
+                            <!--                            <i class="ri-cup-fill"></i>-->
+                            <i class="ri-pencil-ruler-2-fill"></i>
+                        </div>
+                        <div>
+                            <h4>Supervision of student tutorial groups in Mathematics I and III at the University of Koblenz (Academic staff)<br>Company: Hochschule Koblenz </h4>
+                            <h5>Period: March 2022 - Feb 2023 (12 Months)</h5><br>
+                            <h5>Skills acquired and tasks completed:</h5>
+                            <p>
+                                * Communication skills: Interacting with students in the tutorial group develops the ability to explain complex
+                                mathematical concepts in an understandable way and to respond to questions from participants.
+                            </p>
+                            <p>
+                                * Teamwork: Working as a tutor often requires collaboration with other tutors or the main lecturer
+                                to ensure effective teaching and maximise student learning.
+                            </p>
+                            <p>
+                                * Empathy and sensitivity: By putting yourself in the student's shoes and considering their individual difficulties and needs,
+                                you can create a supportive learning environment and enhance the learning process.
+                            </p>
+                            <p>
+                                * Deeper understanding of the subject: Regular exposure to the content of Maths 3 will deepen and consolidate students'
+                                own understanding of the topics.
+                            </p>
+                            <p>
+                                * Problem solving skills:* Working with students to solve mathematical problems strengthens their ability
+                                to analyse complex problems and develop solution strategies.
+                            </p>
+                            <p>
+                                * Didactic skills: Tutoring experience helps to develop effective teaching methods and to teach mathematical
+                                concepts in different ways to suit the different learning styles of student.
+                            </p>
+                            <h5>Focus:</h5>
+                            <p>
+                                Mathematical modeling, Statistical analysis, Algorithm development, Machine Learning.
+                            </p>
+
+                            <!--  <a href="#" class="link-arrow">Read More <i class="ri-arrow-right-up-line"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="work">
+        <div class="container">
+            <div class="row align-items-center justify-content-between" data-aos="fade-up">
+                <div class="col-lg-6">
+                    <div class="intro intro-dark">
+                        <div class="hr-line"></div>
+                        <h1 class="display-4">QUALIFICATION PROFILE AND RESEARCH INTEREST</h1>
+                        <p>Legend: (+) 1 year experience; (++) 2 to 3 years experience; (+++) more than 3 years experience.</p>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <a href="https://roding.africannewdream.fr" class="btn btn-outline-light">View More</a>
+                </div>
+            </div>
+            <div class="row gy-5">
+                <div class="col-lg-4 col-sm-6" data-aos="fade-up">
+                    <div class="project">
+                        <div class="image-wrapper">
+                            <img src="./assets/img/pro_1.jpg" alt="">
+                        </div>
+                        <h3>Research Field</h3>
+                        <p>* artificial intelligence</p>
+                        <p>* machine learning : (++)</p>
+                        <p>* pattern recognition : (++)</p>
+                        <p>* computer vision : (+++)</p>
+                        <p>* image processing : (+++)</p>
+                        <p>* development of sensors and techniques of acquisition: (+++)</p>
+
+                        <!--  <a href="#" class="link-arrow">Read More <i class="ri-arrow-right-up-line"></i></a> -->
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project">
+                        <div class="image-wrapper">
+                            <img src="./assets/img/pro_2.jpg" alt="">
+                        </div>
+                        <h3> Tools</h3>
+                        <p>* Python : (++)</p>
+                        <p>* Matlab : (++)</p>
+                        <p>* CSharp : (++)</p>
+                        <p>* Git & GitHub : (++)</p>
+                        <p>* FreeCad : (++)</p>
+
+
+                        <!--  <a href="#" class="link-arrow">Read More <i class="ri-arrow-right-up-line"></i></a> -->
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project">
+                        <div class="image-wrapper">
+                            <img src="./assets/img/pro_4.jpg" alt="">
+                        </div>
+                        <h3>
+                            Maintenance & Network
+                            IT
+                        </h3>
+
+                        <p>* MS Office : (+++)</p>
+                        <p>* Excellent trainer : (+++)</p>
+                        <p>* Remote control PC : (+++)</p>
+                        <p>* Microsoft App : (+++)</p>
+
+                        <!--<a href="#" class="link-arrow">Read More <i class="ri-arrow-right-up-line"></i></a>-->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="social skills">
+        <div class="container">
+            <div class="row" data-aos="fade-up">
+                <div class="col-lg-5">
+                    <div class="intro mb-4">
+                        <div class="hr-line"></div>
+                        <h1 class="display-4">My social skills as a manager</h1>
+                    </div>
+                    
+                        <p>
+                            As a manager, I can use my social skills to combine my own management goals with the values
+                            and behaviour of my employees and influence them where necessary. The ability to build, maintain
+                            and develop sustainable relationships with employees and customers is essential for professional success.
+                        </p>
+                    
+                    <p>
+                        <strong>
+                            As I am aiming for a management position, I have also developed other social skills
+                            that help me to manage my team but still contribute to social interaction. These include qualities such as
+                        </strong>
+                    </p>
+                    <p> - A sense of responsibility</p>
+
+                    <p>   - communication skills </p>
+
+                     <p>  - Loyalty</p>
+
+                     <p>  - Ability to deal with criticism and conflict</p>
+
+                     <p>  - Ability to co-operate</p>
+
+                     <p>  - Ability to compromise</p>
+
+                     <p>  - Negotiating skills</p>
+
+                     <p> - Assertiveness</p>
+
+                     <p>  - ability to motivate </p>
+
+                     <p>  - Sense of justice </p>
+
+                     <p>  - Emotional intelligence </p>
+                    
+
+                    <a href="#contact" class="btn btn-outline-dark">Contact Me</a>
+                </div>
+
+                <div class="col-lg-6 offset-lg-1">
+                    <img src="./assets/img/me4.JPG" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="container">
+            <div class="row" data-aos="fade-up">
+                <div class="col-lg-5">
+                    <div class="intro mb-4">
+                        <div class="hr-line"></div>
+                        <h1 class="display-4">Little bit about me</h1>
+                    </div>
+                    <p>
+                        Bachelor in Medical Engineering with experience in medical image analysis applications.
+                        My mission is to revolutionise medical technology by developing innovative solutions to improve the lives of millions of people worldwide.
+                        Medical technology has the potential to significantly impact lives, bringing hope and relief to countless people around the world.
+                        By dedicating my efforts to the advancement of medical technology, I aim to alleviate suffering and bring hope to millions of people around the world.
+                        This mission is not only driven by scientific advancement, but also driven by empathy and a desire to help alleviate human suffering.
+                        By combining cutting-edge AI algorithms with cutting-edge technology,
+                        I will enable patients to experience significant improvements in their health and well-being, bringing dignity and purpose to their lives.
+                        My vision is to create a world where medical technology improves the lives of millions, bringing hope, relief and a brighter future.
+                        Together, we can make this vision a reality and create new opportunities to improve healthcare worldwide.
+                    </p>
+                    <p>
+                        Passionate about computer vision and medical technology, I have skills in CSharp, C++ and Python.
+                        I am used to working in a team and have learnt to develop using best practices.
+                        My experience has given me a knack for understanding other people and making the best decisions under stressful circumstances.
+                        In my free time I like to play football, volleyball and do yoga.
+                    </p>
+
+                    <a href="#contact" class="btn btn-outline-dark">Contact Me</a>
+                </div>
+
+                <div class="col-lg-6 offset-lg-1">
+                    <img src="./assets/img/me3.JPG" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--    Education-->
+    <section id="education">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="intro text-center">
+                        <div class="hr-line"></div>
+                        <h1 class="display-4">ACADEMIC TRAINING</h1>
+                        <!--                        <p class="mx-auto">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>-->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="review">
+                    <h3>Bachelor of Science in medical technology</h3>
+                    <h4>Education Institute :</h4>
+                    <p>Hochschule Koblenz</p>
+                    <h5>Final point :</h5>
+                    <p>märz 2020 - now</p>
+                    <div class="row justify-content-between align-items-center">
+
+                    </div>
+                </div>
+            </div>
+            <div class="hr-line"></div>
+            <div><h2>FURTHER TRAINING:</h2></div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
+                <div class="review">
+                    <h3>Computer vision and image processing</h3>
+                    <h4>Education Institute :</h4>
+                    <p>The Udemy - Online, Germany.</p>
+
+                    <div class="row justify-content-between align-items-center">
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
+                <div class="review">
+                    <h3>Language Certificate in German (DSH)</h3>
+                    <h4>Education Institute :</h4>
+                    <p>Volkshochschule Clausthal-Zellerfeld, Germany.</p>
+                    <h5>Final point :</h5>
+                    <p>April 2019 - August 2019</p>
+                    <div class="row justify-content-between align-items-center">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="intro text-center">
+                        <div class="hr-line"></div>
+                        <h1 class="display-4">Hobby</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row gy-4">
+                <!-- taking pictures-->
+                <div class="col-lg-6" data-aos="fade-up">
+                    <div>
+                        <h3>
+                            <img src="./assets/img/kameraImage.png" alt="">
+                        </h3>
+
+                        <div class="row justify-content-between align-items-center">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="review">
+                        <h3>Shooting and editing photos</h3>
+                        <div class="row justify-content-between align-items-center">
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- riding a bike-->
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+                    <div>
+                        <img src="./assets/img/panda_radfahren.png" alt="">
+                        <div class="row justify-content-between align-items-center">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="review">
+                        <h3>Riding a bike</h3>
+                        <div class="row justify-content-between align-items-center">
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- reading books-->
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+                    <div>
+                        <img src="./assets/img/books.png" alt="">
+                        <div class="row justify-content-between align-items-center">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="review">
+                        <h3>reading books</h3>
+                        <div class="row justify-content-between align-items-center">
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Doing sports-->
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+
+                    <div>
+                        <img src="./assets/img/sport_treiben.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="review">
+                        <h3>doing sport</h3>
+                        <div class="row justify-content-between align-items-center">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact">
+
+
+        <!-- Button, um die E-Mail-Anwendung zu öffnen -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="intro text-center">
+                        <div class="hr-line"></div>
+                        <h1 class="display-4">
+                            LET'S GET IN<br>
+                            TOUCH TODAY
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto" data-aos="fade-up">
+                    <form action="" class="row gy-3">
+                        <!--<div class="col-lg-6">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="col-lg-6">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="col-lg-12">
+                            <input type="text" class="form-control" placeholder="Subject">
+                        </div>
+                        <div class="col-lg-12">
+                            <textarea class="form-control" placeholder="message" rows="5"></textarea>
+                        </div>-->
+                        <div class="col-12">
+
+                            <div>
+
+                                <button class="btn btn-dark">
+                                    <a href="mailto:tallafranck2000@gmail.com">Kontaktieren Sie mich</a>
+                                </button>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- INSTA POSTS -->
+    <section class="py-0 w-100 row" id="insta-posts">
+        <div class="col">
+            <img src="./assets/img/ct_aufnahme.png" alt="">
+        </div>
+        <div class="col">
+            <img src="./assets/img/ct.png" alt="">
+        </div>
+        <div class="col">
+            <img src="./assets/img/brain.png" alt="">
+        </div>
+        <div class="col">
+            <img src="./assets/img/medCV.png" alt="">
+        </div>
+        <a href="#" class="insta-follow">
+            <i class="ri-instagram-fill"></i>
+        </a>
+    </section>
+
+    <!-- FOOTER -->
+    <section class="pb-0">
+        <footer>
+            <div class="container footer-top">
+                <div class="row justify-content-between">
+                    <div class="col-auto">
+                        <div>
+                            <p class="mb-0">EMAIL</p>
+                            <h2>tallafranck2000@gmail.com</h2>
+                        </div>
+
+                        <div class="mt-4">
+                            <p class="mb-0">PHONE</p>
+                            <h2>+49 1573 9663973</h2>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <h5 class="mb-3">Follow me on</h5>
+                        <div class="social-links ms-auto">
+                            <a href="https://www.linkedin.com/in/franck-cabrel-talla-kameni-931ba323b/"><i class="ri-linkedin-fill"></i></a>
+                            <!-- <a href="https://www.youtube.com/@rodingit2553/featured"><i class="ri-youtube-fill"></i></a> -->
+                            <!-- <a href="https://discord.com/channels/@me"><i class="ri-discord-fill"></i></a>  -->
+                            <a href="https://github.com/programmierungc"><i class="ri-github-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container footer-bottom">
+                <div class="row justify-content-between">
+                    <div class="col-auto">
+                        <p class="mb-0">Copyright © All Rights Reserved Franck</p>
+                    </div>
+                    <div class="col-auto">
+                        <p class="mb-0">Designed by <a href="">Franck</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/aos.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
